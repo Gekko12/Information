@@ -1,0 +1,20 @@
+
+------------------------------------------------------Range of Data Types --------------------------------------------------------------------
+
+
+                         Signed char : -128 to +127     %c
+                         Unsigned char : 0 to 255        %c
+
+                         Signed int : -2147483648 to +2147483647       %d
+                         Unsigned int : 0 to 4294967295                          %lu
+
+                         Signed Short int : -32768 to +32767       %d
+                         Unsigned Short int : 0 to 65535              %d
+
+                         Signed long int : -9223372036854775808 to +9223372036854775807       %ld
+                         Unsigned long int : 0 to 18446744073709551615                                           %lu  
+                        
+                         Float : -1.17549e-38 to +3.40282e+38              %g
+
+                         Double : -2.22507e-308 to +1.79769e+308       %g
+

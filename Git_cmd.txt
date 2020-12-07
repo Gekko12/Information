@@ -1,0 +1,48 @@
+
+		---------- Git Commands ---------------
+		
+
+git clone https://github.com/username/repo_to _download
+#To download repository from gitHub
+
+git add .
+#Telling git to track all files included untracked
+
+git add file.html
+#To individually track a file
+
+git commit -m "message to commit we making "
+
+git commit -m "msg" -m "description "
+
+ssh-keygen -t rsa -b 4096 -C "gauravsharma01042000@gmail.com"
+#To generate a keys - 1.id_rsa(private one)	2.id_rsa.pub(public)
+
+#Start the ssh-agent in the background.
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+#Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_ed25519 in the command with the name of your private key file.
+$ ssh-add ~/.ssh/id_ed25519
+
+Add a new SSH key to your GitHub account in SEtting -> SSh Key section
+
+git push origin master
+#origin means location of git repo and master is the branch push to
+
+
+git init
+git status
+git add .
+git commit -m "Created a repo locally "
+git push origin master #if it gives a fatal error no repo ....just create a empty repo
+git remote add origin https://github.com/Gekko12/EmptyRepo.git
+git remote -v
+git push -u origin master
+#-u to set default as origin master 
+
+
+
+
+
+
