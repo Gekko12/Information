@@ -1,0 +1,35 @@
+--------------------- Vim Commmands -------------------------
+
+1.	i	#i for insert mode
+2.	A	#a for append mode
+3.	o	#new line will be created after current line
+4.	O	#new line at end
+5.	gg 	#top of the file
+6.	G	#down of the file
+7.	Esc	#to escape the insert mode
+8.	:set number #to set number for lines
+9.	:%s/whatToSearch/WhatToReplace/g	#g for greedy change
+10.	u	#for undo change
+11.	[Ctrl]+r	#to redo
+12.	dd	#to delete a line
+13.	d$	#entire line from current position
+14.	yy	#to copy in cmd mode
+15.	[Ctrl]+[Shift]+c	#to copy in insert mode
+16.	[Del]	#delete characters in cmd mode also
+17.	/match	#to search for a match in the file
+18.	/\cMatch	#to search without case sensitivity
+19.	[Shift]+n	#to toogle fwd for serch matches
+20.	%s/match/replace/gci	#g for greedy ,c for confirm , i for case insensitive
+21.	:w	#to save changes
+22.	:wq	#save and quit
+23.	:!q	#to force quit
+24.	h,j,k,l	#to move around
+25.	[[	#to move first line of the file
+26.	H	#move top of the screen
+27.	L	#move bottom
+28.	M	#move middle
+29.	]]	#move last line
+30.	[number]+[above cmd]	#to effect that much
+31.	3dd	#to delete 3 lines from current position
+
+
