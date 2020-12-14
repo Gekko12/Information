@@ -32,4 +32,13 @@
 30.	[number]+[above cmd]	#to effect that much
 31.	3dd	#to delete 3 lines from current position
 
+################################ To configure the default setting  #######################################
+
+#jump to home directory
+cd
+
+#make a configuration .vimrc file
+vim .vimrc
+
+
 
