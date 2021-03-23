@@ -38,11 +38,5 @@ git commit -m "Created a repo locally "
 git push origin master #if it gives a fatal error no repo ....just create a empty repo
 git remote add origin https://github.com/Gekko12/EmptyRepo.git
 git remote -v
-git push -u origin master
+git push -u origin master 	#git push -u origin main if created using main
 #-u to set default as origin master 
-
-
-
-
-
-
